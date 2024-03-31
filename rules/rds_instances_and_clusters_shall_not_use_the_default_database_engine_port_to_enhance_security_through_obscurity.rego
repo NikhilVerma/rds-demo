@@ -4,13 +4,13 @@ __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"AWSDBBENCH": [
-				"AWSDBBENCH_2.2999999999999998"
+				"AWSDBBENCH_M"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: CIS AWS database services benchmark - Version: 8",
-	"id": "2.2999999999999998",
+	"id": "M",
 	"title": "RDS instances and clusters shall not use the default database engine port to enhance security through obscurity.",
 }
 
