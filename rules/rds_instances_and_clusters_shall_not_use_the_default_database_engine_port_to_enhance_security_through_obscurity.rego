@@ -4,7 +4,7 @@ __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"AWSDBBENCH1": [
-				"AWSDBBENCH_M"
+				"AWSDBBENCH1_M"
 			]
 		},
 		"severity": "Medium"
