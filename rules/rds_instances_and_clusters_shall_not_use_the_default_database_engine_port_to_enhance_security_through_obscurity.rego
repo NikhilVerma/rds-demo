@@ -3,7 +3,7 @@ package rules.rds_instances_and_clusters_shall_not_use_the_default_database_engi
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSDBBENCH": [
+			"AWSDBBENCH1": [
 				"AWSDBBENCH_M"
 			]
 		},
