@@ -3,12 +3,6 @@ package rules.rds_instances_and_clusters_shall_be_deployed_within_a_virtual_priv
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSDBBENCH1": [
-				"AWSDBBENCH1_C"
-			],
-			"AWSDBBENCH2": [
-				"AWSDBBENCH2_C"
-			],
 			"AWSDBBENCH3": [
 				"AWSDBBENCH3_C"
 			]

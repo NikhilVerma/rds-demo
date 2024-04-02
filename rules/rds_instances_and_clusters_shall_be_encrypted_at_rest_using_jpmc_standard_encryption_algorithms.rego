@@ -3,12 +3,6 @@ package rules.rds_instances_and_clusters_shall_be_encrypted_at_rest_using_jpmc_s
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSDBBENCH1": [
-				"AWSDBBENCH1_A"
-			],
-			"AWSDBBENCH2": [
-				"AWSDBBENCH2_A"
-			],
 			"AWSDBBENCH3": [
 				"AWSDBBENCH3_A"
 			]

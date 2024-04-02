@@ -3,12 +3,6 @@ package rules.rds_snapshots_and_backups_shall_be_encrypted_at_rest
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSDBBENCH1": [
-				"AWSDBBENCH1_B"
-			],
-			"AWSDBBENCH2": [
-				"AWSDBBENCH2_B"
-			],
 			"AWSDBBENCH3": [
 				"AWSDBBENCH3_B"
 			]
