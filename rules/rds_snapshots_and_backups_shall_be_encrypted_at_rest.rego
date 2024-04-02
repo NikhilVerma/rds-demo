@@ -5,6 +5,12 @@ __rego__metadoc__ := {
 		"controls": {
 			"AWSDBBENCH1": [
 				"AWSDBBENCH1_B"
+			],
+			"AWSDBBENCH2": [
+				"AWSDBBENCH2_B"
+			],
+			"AWSDBBENCH3": [
+				"AWSDBBENCH3_B"
 			]
 		},
 		"severity": "Medium"
