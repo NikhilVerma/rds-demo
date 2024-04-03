@@ -1,17 +1,17 @@
-package rules.rds_instances_and_clusters_shall_be_encrypted_at_rest_using_jpmc_standard_encryption_algorithms
+package rules.b_rds_snapshots_and_backups_shall_be_encrypted_at
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"AWSRDSBENCH3": [
-				"AWSRDSBENCH3_A"
+				"AWSRDSBENCH3_B"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - AWS RDS - Best Practice - v1 - Version: 3.0",
-	"id": "A",
-	"title": "RDS instances and clusters shall be encrypted at rest using JPMC standard encryption algorithms.",
+	"id": "B",
+	"title": "RDS snapshots and backups shall be encrypted at rest.",
 }
 
 input_type = "tf"

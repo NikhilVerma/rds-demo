@@ -1,4 +1,4 @@
-package rules.rds_instances_and_clusters_shall_be_deployed_within_a_virtual_private_cloud_vpc_and_secured_using_appropriate_security_groups_and_network_access_control_lists_nacls
+package rules.c_rds_instances_and_clusters_shall_be_deployed_wit
 
 __rego__metadoc__ := {
 	"custom": {
