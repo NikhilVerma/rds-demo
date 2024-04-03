@@ -1,17 +1,17 @@
-package rules.b_rds_snapshots_and_backups_shall_be_encrypted_at
+package rules.g_rds_instances_and_clusters_shall_be_covered_by_a
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"AWSRDSBENCH": [
-				"AWSRDSBENCH_B"
+				"AWSRDSBENCH_G"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - AWS RDS - Best Practice - v1 - Version: 1.0",
-	"id": "B",
-	"title": "RDS snapshots and backups shall be encrypted at rest.",
+	"id": "G",
+	"title": "RDS instances and clusters shall be covered by a backup plan using AWS Backup or an equivalent backup solution.",
 }
 
 

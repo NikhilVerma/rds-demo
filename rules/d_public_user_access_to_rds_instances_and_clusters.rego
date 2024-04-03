@@ -1,17 +1,17 @@
-package rules.b_rds_snapshots_and_backups_shall_be_encrypted_at
+package rules.d_public_user_access_to_rds_instances_and_clusters
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"AWSRDSBENCH": [
-				"AWSRDSBENCH_B"
+				"AWSRDSBENCH_D"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - AWS RDS - Best Practice - v1 - Version: 1.0",
-	"id": "B",
-	"title": "RDS snapshots and backups shall be encrypted at rest.",
+	"id": "D",
+	"title": "Public user access to RDS instances and clusters shall be restricted unless explicitly required for specific use cases.",
 }
 
 

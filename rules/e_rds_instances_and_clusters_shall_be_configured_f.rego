@@ -1,17 +1,17 @@
-package rules.b_rds_snapshots_and_backups_shall_be_encrypted_at
+package rules.e_rds_instances_and_clusters_shall_be_configured_f
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"AWSRDSBENCH": [
-				"AWSRDSBENCH_B"
+				"AWSRDSBENCH_E"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - AWS RDS - Best Practice - v1 - Version: 1.0",
-	"id": "B",
-	"title": "RDS snapshots and backups shall be encrypted at rest.",
+	"id": "E",
+	"title": "RDS instances and clusters shall be configured for multiple Availability Zones (Multi-AZ) to ensure high availability and automatic failover.",
 }
 
 

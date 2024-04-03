@@ -1,17 +1,17 @@
-package rules.b_rds_snapshots_and_backups_shall_be_encrypted_at
+package rules.h_enhanced_monitoring_shall_be_enabled_for_rds_ins
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"AWSRDSBENCH": [
-				"AWSRDSBENCH_B"
+				"AWSRDSBENCH_H"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - AWS RDS - Best Practice - v1 - Version: 1.0",
-	"id": "B",
-	"title": "RDS snapshots and backups shall be encrypted at rest.",
+	"id": "H",
+	"title": "Enhanced monitoring shall be enabled for RDS instances to collect detailed performance metrics.",
 }
 
 

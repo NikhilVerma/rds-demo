@@ -1,17 +1,17 @@
-package rules.b_rds_snapshots_and_backups_shall_be_encrypted_at
+package rules.i_deletion_protection_not_be_enabled_for_rds_insta
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"AWSRDSBENCH": [
-				"AWSRDSBENCH_B"
+				"AWSRDSBENCH_I"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - AWS RDS - Best Practice - v1 - Version: 1.0",
-	"id": "B",
-	"title": "RDS snapshots and backups shall be encrypted at rest.",
+	"id": "I",
+	"title": "Deletion protection not be enabled for RDS instances and clusters to prevent accidental or unauthorized deletion.",
 }
 
 
